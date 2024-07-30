@@ -1,5 +1,4 @@
 import React from "react";
-import Typical from "react-typical";
 import "./Profile.css";
 import ScrollService from "../../../utilities/ScrollService";
 import PDF from "../../../assets/Resume/CV_RaihanAlfarisi(1).pdf"
