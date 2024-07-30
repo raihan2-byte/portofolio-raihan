@@ -9,7 +9,7 @@
   
   .resume-card {
     display: flex;
-    height: 460px;
+    height: 560px;
     width: 1000px;
     /* margin: 80px 0; */
   }
@@ -95,7 +95,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 460px;
+    height: 560px;
     width: 100%;
   }
   
@@ -214,7 +214,7 @@
         width: 90%;
     }
     .resume-bullet-details{
-        height: 360px;
+        height: 560px;
         width: fit-content;
         padding: 0;
     }
@@ -226,4 +226,25 @@
         width: 100%;
         
     }
+  }
+
+  @media only screen and (max-width: 475px) {
+    .resume-sub-heading {
+      font-size: 10px;
+      
+    }
+    
+    .resume-heading-description {
+      font-size: 10px;
+      
+    }
+    .heading-date {
+      padding: 2px 10px;
+      font-size: 10px;
+      
+    }
+    .resume-main-heading span {
+      font-size: 12px;
+    }
+    
   }

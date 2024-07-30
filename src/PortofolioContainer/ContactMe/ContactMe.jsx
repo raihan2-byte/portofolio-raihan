@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import imgBack from "../../../src/images/mailz.jpeg";
+import imgBack from "../../../src/images/emails.jpeg";
 import load1 from "../../../src/images/load2.gif";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
@@ -65,7 +65,7 @@ export default function ContactMe(props) {
       <ScreenHeading subHeading={"Let's Keep In Touch"} title={"Contact Me"} />
       <div className="central-form">
         <div className="col">
-          <h2 className="title">Send Me Email</h2>
+          <h2 className="title">Contact Me</h2>
           <a href="https://www.github.com/raihan2-byte/">
             <i className="fa fa-github"></i>
           </a>
@@ -93,7 +93,7 @@ export default function ContactMe(props) {
             <div className="send-btn">
               <button type="submit">
                 send
-                <i className="fa fa-paper-plane" />
+                {/* <i className="fa fa-paper-plane" /> */}
                 {bool ? (
                   <b className="load">
                     <img src={load1} alt="image not responding" />

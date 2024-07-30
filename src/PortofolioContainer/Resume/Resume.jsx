@@ -48,8 +48,8 @@ export default function Resume(props) {
     { label: "Education", logoSrc: education },
     { label: "Experience History", logoSrc: workHistory },
     // { label: "Programming skills", logoSrc: "programming-skills.svg" },
+    // { label: "Certifications", logoSrc: interests },
     { label: "Projects", logoSrc: projects },
-    { label: "Interests", logoSrc: interests },
   ];
 
   const programmingSkillsDetails = [
@@ -83,7 +83,7 @@ export default function Resume(props) {
       subHeading: "Technology Used : React JS, Scss, Golang, Mysql, Gin, Gorm",
     },
     {
-      title: "Building API Shopping Store With Hacktiv8",
+      title: "Create API with Hacktiv8",
       duration: { fromDate: "May", toDate: "Jun 2023" },
       description: "Developed a Golang web shop API with efficient CRUD operations. Optimized PostgreSQL for fast data access and implemented role-based access control with authentication and authorization.",
       subHeading: "Technology Used : Golang, Mysql, Gin",
@@ -96,6 +96,7 @@ export default function Resume(props) {
       <ResumeHeading
         heading={"University of Brawijaya, Indonesia"}
         subHeading={"BACHELOR OF INFORMATION TECHNOLOGY"}
+        description = {"Grade 3.51"}
         fromDate={"2020"}
         toDate={"2024"}
       />
@@ -142,24 +143,6 @@ export default function Resume(props) {
       
     </div>,
 
-    // <div
-    //   className="resume-screen-container programming-skills-container"
-    //   key="programming-skills"
-    // >
-    //   {programmingSkillsDetails.map((skill, index) => (
-    //     <div className="skill-parent" key={index}>
-    //       <div className="heading-bullet"></div>
-    //       <span>{skill.skill}</span>
-    //       <div className="skill-percentage">
-    //         <div
-    //           style={{ width: skill.ratingPercentage + "%" }}
-    //           className="active-percentage-bar"
-    //         ></div>
-    //       </div>
-    //     </div>
-    //   ))}
-    // </div>,
-
     <div className="resume-screen-container" key="propjects">
       {projectsDetails.map((projectsDetails, index) => (
         <ResumeHeading
@@ -172,24 +155,11 @@ export default function Resume(props) {
         />
       ))}
     </div>,
-    <div className="resume-screen-container" key="interests">
-      <ResumeHeading
-        heading="Sport"
-        description="Saya suka berolahraga khususnya bermain badminton dan futsal"
-      />
-      <ResumeHeading
-        heading="Music"
-        description="Saya suka bermain musik yaitu gitar"
-      />
-      <ResumeHeading
-        heading="Games"
-        description="Saya suka mengisi waktu luang saya dalam bermain game diantaranya mobile legend"
-      />
-    </div>,
+    
   ];
 
   const handleCarousal = (index) => {
-    let offsetHeight = 460;
+    let offsetHeight = 560;
     let newCarousalOffset = {
       style: { transform: "translateY(" + index * offsetHeight * -1 + "px)" },
     };
