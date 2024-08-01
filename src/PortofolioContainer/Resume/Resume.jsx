@@ -96,7 +96,7 @@ export default function Resume(props) {
       <ResumeHeading
         heading={"University of Brawijaya, Indonesia"}
         subHeading={"BACHELOR OF INFORMATION TECHNOLOGY"}
-        description = {"Grade 3.51"}
+        description = {"GPA 3.51"}
         fromDate={"2020"}
         toDate={"2024"}
       />
