@@ -127,7 +127,7 @@ export default function Resume(props) {
           heading={"Green Welfare Indonesia"}
           subHeading={"Director Of Technology"}
           fromDate={"Des 2024 "}
-          toDate={" nOV 2024"}
+          toDate={" Nov 2024"}
         />
 
         <div className="experience-description">
