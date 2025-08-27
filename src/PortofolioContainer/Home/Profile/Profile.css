@@ -137,4 +137,8 @@ font-size: 24px;
     .profile-details{
         width: 90%;
     }
+
+    .profile-role-tagline{
+        font-size: 15px;
+    }
 }

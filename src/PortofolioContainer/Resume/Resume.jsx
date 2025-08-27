@@ -66,7 +66,7 @@ export default function Resume(props) {
   const projectsDetails = [
     {
       title: "Green Welfare Indonesia",
-      duration: { fromDate: "Jul 2023", toDate: "Present" },
+      duration: { fromDate: "Jul 2023", toDate: "Nov 2024" },
       description: "integrated Midtrans for payments and donations, optimized SQL database performance using ACID properties, and secured access with JWT authentication and authorization.",
       subHeading: "Technology Used : Golang, Gorm, Mysql, Gin",
     },
@@ -105,10 +105,29 @@ export default function Resume(props) {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
+          heading={"PT Bank SMBC Indonesia"}
+          subHeading={"Java Developer"}
+          fromDate={"Nov 2024 "}
+          toDate={" present"}
+        />
+
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Developed and integrated the e-Form application for Bank Jenius
+            using Java and React.js for activate customer account. Improved code quality and security with SonarQube, achieving high coverage and maintainability. Streamlined project
+            management through Scrum and Jira for efficient collaboration and
+            task tracking.
+          </span>
+          <br />
+        </div>
+      </div>
+
+      <div className="experience-container">
+        <ResumeHeading
           heading={"Green Welfare Indonesia"}
           subHeading={"Director Of Technology"}
           fromDate={"Des 2024 "}
-          toDate={" present"}
+          toDate={" nOV 2024"}
         />
 
         <div className="experience-description">

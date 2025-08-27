@@ -1,7 +1,7 @@
 import React from "react";
 import "./Profile.css";
 import ScrollService from "../../../utilities/ScrollService";
-import PDF from "../../../assets/Resume/CV_RaihanAlfarisi(1).pdf"
+import PDF from "../../../assets/Resume/CV_RaihanAlfarisi_BackEnd.pdf"
 
 export default function Profile() {
   return (
@@ -29,25 +29,10 @@ export default function Profile() {
           </div>
           <div className="profile-details-role">
             <span className="primary-text">
-              {" "}
-              {/* <h1>
-                {" "}
-                <Typical
-                  loop={Infinity}
-                  steps={[
-                    "Back-End Development Enthusiast",
-                    1000,
-                    "Freelance Website Developer",
-                    1000,
-                    "fast learner",
-                    1000,
-                    // "Amiin Ya Allah",1000
-                  ]}
-                />
-              </h1> */}
+              
               <span className="profile-role-tagline">
-                Fresh Graduate Information Technology at Brawijaya
-                University | Director of Technology at Green Welfare Indonesia |
+                Java Developer at PT Bank SMBC Indonesia | Graduate of Information Technology, Brawijaya
+                Universitsy | Lead of Developer at Green Welfare Indonesia |
                 Freelance Website Developer | Back-End Development Enthusiast{" "}
               </span>
             </span>
